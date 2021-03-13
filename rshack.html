@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Baby Sharks</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type='text/javascript' src="./script.js"></script>
+    </head>
+
+
+    <script>
+        function checkboxes()
+        {
+        var inputElems = document.getElementsByTagName("input"),
+            count = 0;
+
+            for (var i=0; i<inputElems.length; i++) {       
+                if (inputElems[i].type == "checkbox" && inputElems[i].checked == true){
+                    count++;
+                }
+            }
+        alert(count);
+        }
+    </script>
+
+    <body>
+
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Worn sweat pants to class?
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Pooped during class?
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Slept in class?
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Slept in class and later woke up to find myself alone with the professor? 
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> I wake up more than 10 minutes before class 
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> I wake up less than 1 minutes before class
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> I don't turn my camera on during class
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> I've worn sweatpants to class
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Used the toilet while on a zoom call
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Left the zoom meeting when the teacher asks you a question
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Left the zoom meeting right before a breakout room
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Had my mic unmuted for the duration of a class period
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Pinned my crush's video during class
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Direct messaged my crush during the class
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Been into someone at first, then seen them without a mask
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Said to yourself "I'll just watch the recording"...
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Not watched the recording...
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Not gone to class for no good reason
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Lost track of the day of the week
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Not shaven for at least a week
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Not showered for more than three days
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Had your parents come into frame to yell at you
+        <br>
+        <input type="checkbox" value=1 name="programming" id=""> Been called out for being on your phone over zoom
+
+
+
+
+        <br>
+        <br>
+        <button type="button" onClick="checkboxes();">Give me score!</button>
+        <br>
+        <br>
+        <a href="./rshack.html" class="button">Retake ZoomU Exam!</a>
+
+
+    </body>
+</html>
